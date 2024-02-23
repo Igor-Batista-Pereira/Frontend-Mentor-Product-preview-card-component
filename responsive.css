@@ -1,0 +1,32 @@
+@media screen and (max-width: 610px) {
+    
+    body{
+        max-width: 375px;
+        min-height: 100vh;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .card{
+        flex-direction: column;
+        width: 375px;
+        height: auto;
+    }
+
+    .product-img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .card .product-info{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .add-cart{
+        margin-top: 20px;
+        
+    }
+}

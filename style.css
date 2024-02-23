@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    max-width: 1440px;
+    min-height: 100vh;
+}
+
+.container-card{
+    display: flex;
+    width:550px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px 0px hsl(228, 12%, 48%);
+}
+
+.card{
+    display: flex;
+}
+
+.product-img{
+    width: 50%;
+    
+}
+.card .product-info{
+    background-color: hsl(0, 0%, 100%);
+    height: 100%;
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-info .description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.description h2{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+}
+
+.description h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: hsl(212, 21%, 14%);
+}
+
+.description p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+    line-height: 16px;
+}
+
+.product-info .price{
+    display: flex;
+    align-items: center;
+    gap: 20px;      
+}
+
+.price .sale-price{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: hsl(158, 36%, 37%);    
+}
+
+.price .full-price{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.add-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.add-cart a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    
+    
+}
+
+.add-cart a:hover {
+    opacity: 0.7;
+}
+
+.add-cart .button-pd{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
